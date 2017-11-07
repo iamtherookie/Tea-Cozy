@@ -1,0 +1,116 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+div {
+  display: block;
+}
+
+/* "CSS Content - Header" */
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  display: block;
+  width: 80%;
+}
+
+nav a {
+  display: inline-block;
+  padding: 20px 10px;
+  color: white;
+  text-decoration: underline;
+}
+
+/* "CSS Content - Body" */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main {
+  padding-top: 69px;
+  width: 1200px;
+}
+
+/* CSS Content - Mission */
+#mission-section {
+  background-image: url("resources/images/mission-background.jpg");
+  height: 700px;
+}
+
+#mission-section .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+/* CSS Content - Tea Options */
+#tea-section {
+  width: 1000px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  display: block;
+}
+
+/* CSS Content - Locations */
+
+#locations-section {
+  background-image: url("resources/images/locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 75px;
+}
+
+#locations-section .flex-container {
+  margin: auto;
+}
+
+h2, h3, h4 {
+  padding: 10px;
+}
+
+.location {
+  background-color: black;
+  opacity: 1;
+  margin: 10px 40px;
+  width: 300px;
+}
+
+/* CSS Content - Contact */
+
+#contact {
+  height: 200px;
+}
+
+/* CSS Content - Footer */
+.footer {
+  padding-left: 20px;
+  text-align: left;
+}
