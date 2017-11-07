@@ -74,6 +74,7 @@ nav a {
 #tea-section {
   width: 1000px;
   margin: auto;
+  padding-top: 75px;
 }
 
 .item img {
@@ -83,17 +84,23 @@ nav a {
   display: block;
 }
 
+.item span {
+  margin: 10px auto;
+}
+
 /* CSS Content - Locations */
 
 #locations-section {
   background-image: url("resources/images/locations-background.jpg");
   height: 500px;
   width: 1200px;
-  padding-top: 75px;
+  margin-top: 75px;
+  padding-top: 70px;
 }
 
 #locations-section .flex-container {
   margin: auto;
+
 }
 
 h2, h3, h4 {
@@ -117,4 +124,8 @@ h2, h3, h4 {
 .footer {
   padding-left: 20px;
   text-align: left;
+}
+
+h5 {
+  display: block;
 }
