@@ -27,12 +27,14 @@ header {
 header img {
   height: 50px;
   padding-left: 10px;
+
 }
 
 nav {
   text-align: right;
   display: block;
-  width: 80%;
+  flex-grow: 1;
+
 }
 
 nav a {
@@ -53,6 +55,7 @@ nav a {
 .main {
   padding-top: 69px;
   width: 1200px;
+  margin: auto;
 }
 
 /* CSS Content - Mission */
@@ -70,6 +73,7 @@ nav a {
 /* CSS Content - Tea Options */
 #tea-section {
   width: 1000px;
+  margin: auto;
 }
 
 .item img {
